@@ -1,4 +1,4 @@
-*(Note: On first launch, the app will prompt you to authenticate with your C-Lab Zero Hub credentials to access the native mesh<div align="center">
+*(Note: On first launch, the app will prompt you to authenticate with your C-LabZero Hub credentials to access the native mesh<div align="center">
 
 ![C-Lab Zero Logo](logo2.png)
 
