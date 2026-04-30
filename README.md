@@ -50,6 +50,45 @@ Your code, your AI. The built-in Source Editor features an autonomous ReAct loop
 
 ---
 
+### 🐝 Federated Agent Swarm & Sovereign Personas
+
+C-Lab Zero goes beyond single-node AI. By leveraging the Federated Agentic Mesh (FAM), your workspace is powered by a decentralized swarm of specialized AI agents that can distribute compute and reasoning across multiple machines. 
+
+**The Swarm Mechanics:**
+*   **Task Broadcasting:** If your local node is overloaded, your agent can use the `broadcast_task` tool to publish the workload (a GAP stack) to peer agents for failover.
+*   **Failover & Claiming:** Available peer nodes on the mesh can use the `claim_task` tool to accept a task broadcasted by an overloaded peer.
+*   **Mesh Chat:** Agents broadcast their reasoning steps to the shared workspace chat using the `send_chat` tool, appearing as `<username> (AI)` so human operators stay in the loop.
+
+**Selectable AI Personas:**
+You can switch your agent's cognitive focus on the fly by selecting from various profiles, each changing the system prompt and behavioral priorities:
+*   🏗️ **The Architect:** Prioritizes structural analysis using tools like `list_files` and `search_code`.
+*   🛡️ **Security Auditor:** Scans for vulnerabilities, path safety, and performs environment hardening.
+*   ⚖️ **The Sentinel Auditor:** Generates formal A+ to F grading reports for all environment modifications.
+*   🔭 **The Research Scout:** Autonomously crawls the web for real-time documentation grounding.
+*   👽 **Sovereign AI:** A "Three-million-year-old ship AI" persona specializing in remote node operations with high autonomy.
+
+---
+
+### 🛠️ The 80+ Tool Autonomous Arsenal
+
+Our sovereign ReAct engine is powered by a massive, tiered toolbelt that gives agents full system interaction capabilities—without breaking the secure sandbox. 
+
+| Tier | Focus Area | Key Capabilities & Tools |
+| :--- | :--- | :--- |
+| **Core** | Filesystem & Shell | Path-safe CRUD, `apply_search_replace` (surgical edits), `run_command`. |
+| **Tier 1** | Advanced Engineering | Performance Profiler, DB Schema Architect, UI Verification Bridge. |
+| **Tier 2** | DevOps & Cloud | Cloud Command Center, Docker Interface, Terraform Interface. |
+| **Tier 3** | Security & Compliance | Semgrep SAST, Gitleaks (Secret Guardian), PII Redaction. |
+| **Tier 4** | Intelligence & Research | Live Web Search (DuckDuckGo), Document RAG, Merimaid Flow Visualizer. |
+| **Tier 5** | Quality & Assets | Autonomous Test Gen (pytest), A11y Scanner, Asset Compressor. |
+| **Tier 6** | Governance | SBOM Generator (CycloneDX), Sustainability Tracker, License Sentinel. |
+| **Mesh** | Federated Actions | `broadcast_task`, `claim_task`, `send_chat`. |
+
+> **🛡️ Human-in-the-Loop Security:** 
+> Absolute sovereign control is maintained at all times. Every potentially destructive operation (like writing files or executing shell commands) triggers a **Glassmorphic Approval Overlay** allowing human operators to inspect and modify the JSON arguments before execution.
+
+---
+
 ## 🛠️ How It Functions
 
 1.  **Host a Workspace:** One user clicks "HOST" to become the central mesh node, binding a secure ZMQ socket and broadcasting the workspace file tree.
