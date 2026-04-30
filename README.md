@@ -1,4 +1,4 @@
-*(Note: On first launch, the app will prompt you to authenticate with your C-LabZero Hub credentials to access the native mesh<div align="center">
+<div align="center">
 
 ![C-Lab Zero Logo](logo2.png)
 
@@ -87,6 +87,31 @@ Our sovereign ReAct engine is powered by a massive, tiered toolbelt that gives a
 > **🛡️ Human-in-the-Loop Security:** 
 > Absolute sovereign control is maintained at all times. Every potentially destructive operation (like writing files or executing shell commands) triggers a **Glassmorphic Approval Overlay** allowing human operators to inspect and modify the JSON arguments before execution.
 
+---
+
+### 🧠 Next-Gen Architecture & Metacognition
+
+C-LabZero goes far beyond standard AI code generation, utilizing advanced metacognition, extreme context compression, and real-time mesh visualization.
+
+**1. Sovereign Metacognition**
+Most AI assistants just generate code and hope for the best. C-Lab Zero has an entire metacognitive layer for self-reflection and parallel thinking:
+*   **The Crucible:** Every single piece of code generated is actively audited by a shadow "Critic" model in an adversarial loop before it's finalized.
+*   **Multiversal Reasoning (Chronos MBE):** The agent uses an MCTS-lite branching engine to spawn divergent architectural realities, test them, and collapse them into the optimal "Apex" solution.
+*   **ACT-R Memory:** The AI prioritizes files based on cognitive activation—tracking recent-access frequency and structural decay to manage its own memory.
+
+**2. Token-Shattering Context Engine**
+C-Lab Zero protects your token limits with extreme efficiency:
+*   **Tree-Sitter Skeletonisation:** For files over 5KB, the agent automatically strips out function bodies and only feeds the AI the structural signatures, massively saving tokens.
+*   **Surgical Search/Replace:** Instead of rewriting whole files, the agent uses `apply_search_replace` blocks, resulting in a 90%+ token reduction compared to standard AI rewrites.
+
+**3. Native MCP (Model Context Protocol) Integration**
+*   **Universal Tool Expansion:** Through the `MCPManager`, users can bridge external tool ecosystems via Stdio or SSE transports. The mesh isn't just limited to its 80 tools; it dynamically discovers and ingests any standard MCP server tools (like databases or external APIs).
+
+**4. Physics-Driven Network Topology**
+You aren't just in a mesh; you can *see* it.
+*   **Live Canvas Visualisation:** The desktop app includes a physics-driven network map with node repulsion and link attraction.
+*   **Glow-Mapping:** Links dynamically shift colors (Cyan `#00F2FF` to Purple `#7000FF` gradients) based on real-time bandwidth and Mathis Health Score (MHS) diagnostics.
+   
 ---
 
 ## 🛠️ How It Functions
